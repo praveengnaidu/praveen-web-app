@@ -16,12 +16,12 @@
   --image_border_px: 3px;
 
   /* You can change the width and size of the picture by typing the number of pixels. */
-  --image_width: 140px;
-  --image_height: 140px;
+  --image_width: 200px;
+  --image_height: 200px;
 
   /* You can change the colors of the title and description section by typing the color codes. */
-  --title_color: #fff;
-  --description_color: #f1c40f;
+  --title_color: #000000;
+  --description_color: #000000;
 
   /* You can change the colors of social media icons by changing the color code. */
   --svg_color: #fff;
@@ -231,7 +231,7 @@ main {
 .main_small_button_item {
   color: var(--button_text_color);
   background-color: var(--button_background_color);
-  width: calc(41em / 2 - 5px);
+  width: calc(30em / 2 - 5px);
   border-radius: 1em;
   min-height: 3.7em;
   text-align: center;
