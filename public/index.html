@@ -1,43 +1,55 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>Praveen's Test Web App</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praveen Gundala - Software Development Manager</title>
+    <meta name="description" content="Your Description">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&amp;display=swap">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <header>
+    <!-- Logo, Title and Description Codes Start -->
+      <div class="header_img flex_column_center">
+        <img src="img/logo.png" alt="Logo" />
+      </div>
+      <div class="header_text flex_column_center">
+        <h1 class="header_h_item">Praveen Gundala</h1>
+        <h2 class="header_h_item">Software Development Manager</h2>
+      </div>
+    <!-- Logo, Title and Description Codes End -->  
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+  </header>
+    <main>
+      <!-- Menu Container 1 Codes Start -->
+      <section id="main_section_container_1" class="flex_column_center">
+        <!-- Menu Text Item -->
+        <div class="main_text_item">
+          <p>With great power comes great responsibility.</p>
+        </div>
+       <!-- Menu Item -->
+        <a class="main_a_item" href="https://www.linkedin.com/in/praveengnaidu/" target="_blank" rel="nofollow">
+          <button class="main_button_item">Praveen's Linked In</button>
+        </a>
+        <!-- Menu Item -->
+        <a class="main_a_item" href="https://priorart.ip.com/IPCOM/000198945" target="_blank" rel="nofollow">
+          <button class="main_button_item">Praveen's Defensive Publication</button>
+        </a>
+      </section>
+      <!-- Menu Container 1 Codes End -->
+    </main>
+    <footer>
+      <!-- Footer Codes Start -->
+      <div class="footer_div_item flex_row_center">
+        <a class="footer_a_item" href="#link">Praveen Gundala</a>&nbsp;| Copyright 2024
+      </div>
+    </footer>
+      <!-- Footer Codes End -->
+    <script src="js/main.js"></script>
   </body>
 </html>
